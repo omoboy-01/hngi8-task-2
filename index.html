@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayomide Osabiya's Resume!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Coda" media="all">
+</head>
+<body style="font-family: Coda" id="top">
+
+<!-- Section 1 -->
+<section class="w-full px-6 pb-12 antialiased bg-white">
+    <div class="mx-auto max-w-7xl">
+
+        <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
+            <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center sm:px-4 md:px-2">
+                <div class="flex items-center justify-start w-1/4 h-full pr-4">
+                    <a href="" class="inline-block py-4 md:py-0">
+                        <span class="p-1 text-xl font-black leading-none text-gray-900"><span class="">Ayomide Osabiya</span><span class="text-indigo-700">.</span></span>
+                    </a>
+                </div>
+                <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
+                    <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
+                        <a href="" class="inline-flex items-center block w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 md:hidden">Ayomide.<span class="text-indigo-700">.</span></a>
+                        <div class="flex flex-col items-start justify-center w-full space-x-6 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+                            <a href="#top" class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
+                            <a href="#ProfessionalExperience" class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-700 lg:mx-3 md:text-center">Experience</a>
+                        </div>
+                    </div>
+                </div>
+                <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 bg-white rounded-full cursor-pointer md:hidden hover:bg-gray-100">
+                    <svg class="w-6 h-6 text-gray-700" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="w-6 h-6 text-gray-700" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Hero Content -->
+        <div class="py-32 mx-auto text-left md:max-w-none md:text-center">
+            <h1 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl"><span class="block">Hello there!</span> <span class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-indigo-700 to-indigo-600 md:inline-block">I am Ayomide Osabiya</span></h1>
+            <div class="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg">I'm learning how create of landing pages, blogs and applications in the web!</div>
+            <div class="flex flex-col items-center mt-12 text-center">
+                <span class="relative inline-flex w-full md:w-auto">
+                    <a href="#_" type="button" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-indigo-700 border border-transparent md:w-auto hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 rounded-none">Hire Me</a>
+                    <span class=""></span>
+                </span>
+                <a href="mailto:ayomideosabiya01@gmail.com" class="mt-3 text-sm text-indigo-700"></a>
+            </div>
+        </div>
+        <!-- End Main Hero Content -->
+
+    </div>
+</section>
+
+<!-- Section 2 -->
+<section class="relative py-16 bg-white min-w-screen animation-fade animation-delay" id="ProfessionalExperience">
+    <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
+        <p class="text-xs font-bold text-left text-indigo-700 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold"></p>
+        <h3 class="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">Professional Experience</h3>
+        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-none">
+            <h3 class="text-lg font-bold text-indigo-700 sm:text-xl md:text-2xl">Equity Valuation Intern  (Aug 2020 - Present)</h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal"></p>
+        </div>
+        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-none">
+            <h3 class="text-lg font-bold text-indigo-700 sm:text-xl md:text-2xl">Research Analyst (Mar 2020 - Present)</h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal"></p>
+        </div>
+        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-none">
+            <h3 class="text-lg font-bold text-indigo-700 sm:text-xl md:text-2xl">Investment Banking Analyst Intern (Nov 2019 - Mar 2020)</h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal"></p>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3 -->
+<section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
+    <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
+        <p class="text-xs font-bold text-left text-indigo-700 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold"></p>
+        <h3 class="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">Education</h3>
+        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-none">
+            <h3 class="text-lg font-bold text-indigo-700 sm:text-xl md:text-2xl">University Of Lagos </h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Bachelor's Degree in Economics</p>
+        </div>
+        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-none">
+            <h3 class="text-lg font-bold text-indigo-700 sm:text-xl md:text-2xl">Caleb International College</h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Major in Science</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section 4 -->
+<section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
+    <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
+        <p class="text-xs font-bold text-left text-indigo-700 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold"></p>
+        <h3 class="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">Licenses &amp; Certifications</h3>
+        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-none">
+            <h3 class="text-lg font-bold text-indigo-700 sm:text-xl md:text-2xl">Jobberman Soft Skills</h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">Issued in Jul 2020</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section 5 -->
+<section class="py-8 leading-7 text-gray-900 bg-white sm:py-12 md:py-16 lg:py-24">
+    <div class="max-w-6xl px-4 px-10 mx-auto border-solid lg:px-12">
+        <div class="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
+            <div class="box-border flex-1 text-center border-solid sm:text-left">
+                <h2 class="m-0 text-4xl font-semibold leading-tight tracking-tight text-left text-black border-0 border-gray-200 sm:text-5xl">Checkout my LinkedIn Account</h2>
+                <p class="mt-2 text-xl text-left text-gray-900 border-0 border-gray-200 sm:text-2xl"></p>
+            </div>
+            <a href="https://ng.linkedin.com/in/ayomide-osabiya-" target="_blank" class="inline-flex items-center justify-center w-full px-5 py-4 mt-6 ml-0 font-sans text-base leading-none text-white no-underline bg-indigo-700 border border-indigo-700 border-solid cursor-pointer md:w-auto lg:mt-0 hover:bg-indigo-800 hover:border-indigo-800 hover:text-white focus-within:bg-indigo-800 focus-within:border-indigo-800 focus-within:text-white sm:text-lg lg:ml-6 md:text-xl rounded-none">
+                Get Started
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<img src="https://res.cloudinary.com/zuri-team/image/upload/zuriboard/tenant-logo/ms5faj5pae6nd03wazk1.png">
+
+<!-- Section 6 -->
+<section class="bg-white">
+    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+        <p class="mt-8 text-base leading-6 text-center text-gray-400">© 2021 Ayomide Osabiya.</p>
+    </div>
+</section>
+
+<!-- AlpineJS Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+
+</body>
+</html>
